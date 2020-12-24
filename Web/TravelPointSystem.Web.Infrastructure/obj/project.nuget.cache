@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "MTo5HZW+piEoDfRjpX/XODD8HVsZdEXyNxblhN5n7AG7Bdk95zBjxyt7px1WC5B44LJf/UeVuEmtYCKgyh7iig==",
+  "success": true,
+  "projectFilePath": "D:\\Programming\\Темп\\TravelPointSystem\\Web\\TravelPointSystem.Web.Infrastructure\\TravelPointSystem.Web.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ventsi\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Ventsi\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Ventsi\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.164\\stylecop.analyzers.1.2.0-beta.164.nupkg.sha512",
+    "C:\\Users\\Ventsi\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.164\\stylecop.analyzers.unstable.1.2.0.164.nupkg.sha512"
+  ],
+  "logs": []
+}

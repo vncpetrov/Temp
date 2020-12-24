@@ -1,0 +1,96 @@
+﻿@using TravelPointSystem.Data.Models.Enums;
+@model TravelPointSystem.Web.ViewModels.Reservations.ReservationCreateInputModel
+@{
+    this.ViewData["Title"] = "Create reservation";
+}
+
+<div class="text-center mt-5 mb-3 h1">@this.ViewData["Title"]</div>
+
+<form method="post" class=" col-md-9 offset-md-2">
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+    @if (Model.ReservationType.ToString() == "Hotel")
+    {
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="CheckIn" class="control-label"></label>
+                    <input asp-for="CheckIn" class="form-control" />
+                    <span asp-validation-for="CheckIn" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="CheckOut" class="control-label"></label>
+                    <input asp-for="CheckOut" class="form-control" />
+                    <span asp-validation-for="CheckOut" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+        <hr />
+        <br />
+    }
+
+    @for (int i = 0; i < Model.NumberOfTourists; i++)
+    {
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="Tourists[i].FullName" class="control-label"></label>
+                    <input asp-for="Tourists[i].FullName" class="form-control" />
+                    <span asp-validation-for="Tourists[i].FullName" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="Tourists[i].TouristType" class="control-label"></label>
+                    <select asp-for="Tourists[i].TouristType" asp-items="Html.GetEnumSelectList<TouristType>()" class="form-control">
+                    </select>
+                    <span asp-validation-for="Tourists[i].TouristType" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="Tourists[i].DateOfBirth" class="control-label"></label>
+                    <input asp-for="Tourists[i].DateOfBirth" class="form-control" />
+                    <span asp-validation-for="Tourists[i].DateOfBirth" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="Tourists[i].PersonalNumber" class="control-label"></label>
+                    <input asp-for="Tourists[i].PersonalNumber" class="form-control" />
+                    <span asp-validation-for="Tourists[i].PersonalNumber" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="Tourists[i].PassportNumber" class="control-label"></label>
+                    <input asp-for="Tourists[i].PassportNumber" class="form-control" />
+                    <span asp-validation-for="Tourists[i].PassportNumber" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="Tourists[i].PhoneNumber" class="control-label"></label>
+                    <input asp-for="Tourists[i].PhoneNumber" class="form-control" />
+                    <span asp-validation-for="Tourists[i].PhoneNumber" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+        <hr />
+        <br />
+    }
+
+    <button type="submit" class="btn btn-primary">Create</button>
+</form>

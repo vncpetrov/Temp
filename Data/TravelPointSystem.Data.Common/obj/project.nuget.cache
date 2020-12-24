@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "DM3DbeRI3ihYoi8yu0pEJDgi3aP5QlRSVYdgPFlXBYxN3qyIknMNluN7CchPOjLldmMh4HG8vjt2WYuRQEqeqQ==",
+  "success": true,
+  "projectFilePath": "D:\\Programming\\Темп\\TravelPointSystem\\Data\\TravelPointSystem.Data.Common\\TravelPointSystem.Data.Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ventsi\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Ventsi\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Ventsi\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.164\\stylecop.analyzers.1.2.0-beta.164.nupkg.sha512",
+    "C:\\Users\\Ventsi\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.164\\stylecop.analyzers.unstable.1.2.0.164.nupkg.sha512",
+    "C:\\Users\\Ventsi\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

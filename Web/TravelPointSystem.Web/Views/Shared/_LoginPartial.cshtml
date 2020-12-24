@@ -1,0 +1,31 @@
+﻿@using TravelPointSystem.Common
+@using TravelPointSystem.Data.Models
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+<ul class="navbar-nav main-navbar">
+    @if (this.SignInManager.IsSignedIn(this.User))
+    {
+        <li class="nav-item mx-2">
+            <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage"><i class="fa fa-gear" style="font-size:24px"></i></a>
+        </li>
+        <li class="nav-item mx-2">
+            <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@(this.Url.Action("Index", "Home", new { area = string.Empty }))">
+                <button type="submit" class="nav-link btn btn-link text-dark">Logout</button>
+            </form>
+        </li>
+    }
+    else
+    {
+        <li class="nav-item mx-2">
+            <a class="nav-link  nav-link-hover text-dark" asp-area="" asp-controller="Home" asp-action="About">About Us</a>
+        </li>
+        <li class="nav-item mx-2">
+            <a class="nav-link  nav-link-hover text-dark" asp-area="Identity" asp-page="/Account/Register">Register</a>
+        </li>
+        <li class="nav-item mx-2">
+            <a class="nav-link nav-link-hover text-dark" asp-area="Identity" asp-page="/Account/Login">Login</a>
+        </li>
+    }
+</ul>

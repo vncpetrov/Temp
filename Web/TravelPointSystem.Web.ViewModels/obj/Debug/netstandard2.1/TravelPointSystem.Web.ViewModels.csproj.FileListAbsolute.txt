@@ -1,0 +1,16 @@
+D:\Programming\Темп\TravelPointSystem\Web\TravelPointSystem.Web.ViewModels\bin\Debug\netstandard2.1\TravelPointSystem.Web.ViewModels.deps.json
+D:\Programming\Темп\TravelPointSystem\Web\TravelPointSystem.Web.ViewModels\bin\Debug\netstandard2.1\TravelPointSystem.Web.ViewModels.dll
+D:\Programming\Темп\TravelPointSystem\Web\TravelPointSystem.Web.ViewModels\bin\Debug\netstandard2.1\TravelPointSystem.Web.ViewModels.pdb
+D:\Programming\Темп\TravelPointSystem\Web\TravelPointSystem.Web.ViewModels\bin\Debug\netstandard2.1\TravelPointSystem.Data.Common.dll
+D:\Programming\Темп\TravelPointSystem\Web\TravelPointSystem.Web.ViewModels\bin\Debug\netstandard2.1\TravelPointSystem.Data.Models.dll
+D:\Programming\Темп\TravelPointSystem\Web\TravelPointSystem.Web.ViewModels\bin\Debug\netstandard2.1\TravelPointSystem.Services.Mapping.dll
+D:\Programming\Темп\TravelPointSystem\Web\TravelPointSystem.Web.ViewModels\bin\Debug\netstandard2.1\TravelPointSystem.Data.Models.pdb
+D:\Programming\Темп\TravelPointSystem\Web\TravelPointSystem.Web.ViewModels\bin\Debug\netstandard2.1\TravelPointSystem.Services.Mapping.pdb
+D:\Programming\Темп\TravelPointSystem\Web\TravelPointSystem.Web.ViewModels\bin\Debug\netstandard2.1\TravelPointSystem.Data.Common.pdb
+D:\Programming\Темп\TravelPointSystem\Web\TravelPointSystem.Web.ViewModels\obj\Debug\netstandard2.1\TravelPointSystem.Web.ViewModels.csprojAssemblyReference.cache
+D:\Programming\Темп\TravelPointSystem\Web\TravelPointSystem.Web.ViewModels\obj\Debug\netstandard2.1\TravelPointSystem.Web.ViewModels.AssemblyInfoInputs.cache
+D:\Programming\Темп\TravelPointSystem\Web\TravelPointSystem.Web.ViewModels\obj\Debug\netstandard2.1\TravelPointSystem.Web.ViewModels.AssemblyInfo.cs
+D:\Programming\Темп\TravelPointSystem\Web\TravelPointSystem.Web.ViewModels\obj\Debug\netstandard2.1\TravelPointSystem.Web.ViewModels.csproj.CoreCompileInputs.cache
+D:\Programming\Темп\TravelPointSystem\Web\TravelPointSystem.Web.ViewModels\obj\Debug\netstandard2.1\TravelPointSystem.Web.ViewModels.csproj.CopyComplete
+D:\Programming\Темп\TravelPointSystem\Web\TravelPointSystem.Web.ViewModels\obj\Debug\netstandard2.1\TravelPointSystem.Web.ViewModels.dll
+D:\Programming\Темп\TravelPointSystem\Web\TravelPointSystem.Web.ViewModels\obj\Debug\netstandard2.1\TravelPointSystem.Web.ViewModels.pdb

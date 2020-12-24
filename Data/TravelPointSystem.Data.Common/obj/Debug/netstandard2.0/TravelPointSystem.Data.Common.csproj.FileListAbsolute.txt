@@ -1,0 +1,9 @@
+D:\Programming\Темп\TravelPointSystem\Data\TravelPointSystem.Data.Common\bin\Debug\netstandard2.0\TravelPointSystem.Data.Common.deps.json
+D:\Programming\Темп\TravelPointSystem\Data\TravelPointSystem.Data.Common\bin\Debug\netstandard2.0\TravelPointSystem.Data.Common.dll
+D:\Programming\Темп\TravelPointSystem\Data\TravelPointSystem.Data.Common\bin\Debug\netstandard2.0\TravelPointSystem.Data.Common.pdb
+D:\Programming\Темп\TravelPointSystem\Data\TravelPointSystem.Data.Common\obj\Debug\netstandard2.0\TravelPointSystem.Data.Common.csprojAssemblyReference.cache
+D:\Programming\Темп\TravelPointSystem\Data\TravelPointSystem.Data.Common\obj\Debug\netstandard2.0\TravelPointSystem.Data.Common.AssemblyInfoInputs.cache
+D:\Programming\Темп\TravelPointSystem\Data\TravelPointSystem.Data.Common\obj\Debug\netstandard2.0\TravelPointSystem.Data.Common.AssemblyInfo.cs
+D:\Programming\Темп\TravelPointSystem\Data\TravelPointSystem.Data.Common\obj\Debug\netstandard2.0\TravelPointSystem.Data.Common.csproj.CoreCompileInputs.cache
+D:\Programming\Темп\TravelPointSystem\Data\TravelPointSystem.Data.Common\obj\Debug\netstandard2.0\TravelPointSystem.Data.Common.dll
+D:\Programming\Темп\TravelPointSystem\Data\TravelPointSystem.Data.Common\obj\Debug\netstandard2.0\TravelPointSystem.Data.Common.pdb

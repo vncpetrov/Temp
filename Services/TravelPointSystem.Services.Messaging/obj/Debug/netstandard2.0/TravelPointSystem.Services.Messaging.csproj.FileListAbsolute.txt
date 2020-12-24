@@ -1,0 +1,9 @@
+D:\Programming\Темп\TravelPointSystem\Services\TravelPointSystem.Services.Messaging\bin\Debug\netstandard2.0\TravelPointSystem.Services.Messaging.deps.json
+D:\Programming\Темп\TravelPointSystem\Services\TravelPointSystem.Services.Messaging\bin\Debug\netstandard2.0\TravelPointSystem.Services.Messaging.dll
+D:\Programming\Темп\TravelPointSystem\Services\TravelPointSystem.Services.Messaging\bin\Debug\netstandard2.0\TravelPointSystem.Services.Messaging.pdb
+D:\Programming\Темп\TravelPointSystem\Services\TravelPointSystem.Services.Messaging\obj\Debug\netstandard2.0\TravelPointSystem.Services.Messaging.csprojAssemblyReference.cache
+D:\Programming\Темп\TravelPointSystem\Services\TravelPointSystem.Services.Messaging\obj\Debug\netstandard2.0\TravelPointSystem.Services.Messaging.AssemblyInfoInputs.cache
+D:\Programming\Темп\TravelPointSystem\Services\TravelPointSystem.Services.Messaging\obj\Debug\netstandard2.0\TravelPointSystem.Services.Messaging.AssemblyInfo.cs
+D:\Programming\Темп\TravelPointSystem\Services\TravelPointSystem.Services.Messaging\obj\Debug\netstandard2.0\TravelPointSystem.Services.Messaging.csproj.CoreCompileInputs.cache
+D:\Programming\Темп\TravelPointSystem\Services\TravelPointSystem.Services.Messaging\obj\Debug\netstandard2.0\TravelPointSystem.Services.Messaging.dll
+D:\Programming\Темп\TravelPointSystem\Services\TravelPointSystem.Services.Messaging\obj\Debug\netstandard2.0\TravelPointSystem.Services.Messaging.pdb

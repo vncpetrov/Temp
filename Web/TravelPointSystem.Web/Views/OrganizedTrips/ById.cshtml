@@ -1,0 +1,69 @@
+﻿@model TravelPointSystem.Web.ViewModels.OrganizedTrips.OrganizedTripViewModel
+@{
+    this.ViewData["Title"] = Model.Name;
+    string starSymbol = "\u2B50";
+}
+
+<div class="row mt-4">
+
+    <!--Grid column-->
+    <div class="col-md-6 mb-4">
+
+        <img src="@Model.ImageUrl" class="img-fluid" alt="">
+
+    </div>
+    <!--Grid column-->
+    <!--Grid column-->
+    <div class="col-md-6 mb-4">
+
+        <!--Content-->
+        <div class="p-4">
+            <div class="mb-3 h1">@this.ViewData["Title"]</div>
+            <p class="lead">
+                <span>$@Model.PricePerPerson    <i class="fa fa-user"></i></span>
+            </p>
+
+            <p class="lead font-weight-bold">
+                Departure: <span class="lead font-weight-normal">@Model.DepartureDateTime</span>
+            </p>
+
+            <p class="lead font-weight-bold">
+                Return: <span class="lead font-weight-normal">@Model.ReturnDateTime</span>
+            </p>
+
+            <p class="lead font-weight-bold">
+                Transport: <span class="lead font-weight-normal">@Model.Transport</span>
+            </p>
+
+            <p class="lead font-weight-bold">
+                Hotel: <span class="lead font-weight-normal">@Model.Hotel.Name <span>@string.Concat(Enumerable.Repeat(starSymbol, Model.Hotel.Stars))</span></span>
+            </p>
+
+            <p class="lead font-weight-bold">
+                Available Seats: <span class="lead font-weight-normal">@Model.AvailableSeats</span>
+            </p>
+
+            <p class="lead font-weight-bold">Description</p>
+
+            <p>
+                @Model.Description
+            </p>
+
+            <p class="d-flex justify-content-center">
+                @if (Model.AvailableSeats == 0 || Model.AvailableSeats < Model.NumberOfTourists)
+                {
+                    <a class="btn btn-primary disabled">No Seats</a>
+                }
+                else
+                {
+                    <a class="btn btn-primary btn-lg" asp-controller="Reservations" asp-action="Create" asp-route-reservationType="@Model.ReservationType" asp-route-id="@Model.Id" asp-route-numberOfTourists="@Model.NumberOfTourists">Book</a>
+                }
+            </p>
+
+        </div>
+        <!--Content-->
+
+    </div>
+    <!--Grid column-->
+
+</div>
