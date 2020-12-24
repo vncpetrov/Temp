@@ -15,17 +15,25 @@
         private readonly IDestinationsService destinationsService;
         private readonly IBusesService busesService;
 
-        public BusesController(IDestinationsService destinationsService, IBusesService busesService)
+        public BusesController(
+            IDestinationsService destinationsService,
+            IBusesService busesService)
         {
+            if (destinationsService is null)
+                throw new ArgumentNullException(nameof(destinationsService));
+
+            if (busesService is null)
+                throw new ArgumentNullException(nameof(busesService));
+
             this.destinationsService = destinationsService;
             this.busesService = busesService;
         }
 
-        [Authorize]
         [HttpGet]
         public IActionResult CheckDestinationsId()
         {
             var inputModel = new BusesByDestinationsIdInputModel();
+
             inputModel.StartDestinationItems = this.destinationsService
                 .GetAllStartCountriesForBusesAsKeyValuePairs();
 
@@ -36,26 +44,39 @@
             return this.View(inputModel);
         }
 
-        [Authorize]
         [HttpPost]
         public IActionResult CheckDestinationsId(BusesByDestinationsIdInputModel inputModel)
         {
             if (!this.ModelState.IsValid)
             {
-                inputModel.StartDestinationItems = this.destinationsService.GetAllStartCountriesForBusesAsKeyValuePairs();
-                inputModel.EndDestinationItems = this.destinationsService.GetAllEndCountriesForBusesAsKeyValuePairs();
+                inputModel.StartDestinationItems = this.destinationsService
+                    .GetAllStartCountriesForBusesAsKeyValuePairs();
+
+                inputModel.EndDestinationItems = this.destinationsService
+                    .GetAllEndCountriesForBusesAsKeyValuePairs();
             }
 
-            return this.RedirectToAction("AllByDestinationsId", new { startDestinationId = inputModel.StartPointId, endDestinationId = inputModel.EndPointId, numberOfTourists = inputModel.NumberOfTourists });
+            var routeValues = new
+            {
+                startDestinationId = inputModel.StartPointId,
+                endDestinationId = inputModel.EndPointId,
+                numberOfTourists = inputModel.NumberOfTourists
+            };
+
+            return this.RedirectToAction("AllByDestinationsId", routeValues);
         }
 
-        [Authorize]
         [HttpGet]
-        public async Task<IActionResult> AllByDestinationsId(int startDestinationId, int endDestinationId, int numberOfTourists)
+        public async Task<IActionResult> AllByDestinationsId(
+            int startDestinationId,
+            int endDestinationId,
+            int numberOfTourists)
         {
             var buses = new BusesByDestinationsIdListViewModel
             {
-                Buses = await this.busesService.GetAllByDestinationsIdAsync(startDestinationId, endDestinationId),
+                Buses = await this.busesService
+                    .GetAllByDestinationsIdAsync(startDestinationId, endDestinationId),
+
                 NumberOfTourists = numberOfTourists,
             };
 
