@@ -41,7 +41,6 @@
           "TravelPointSystem.Services.Data": "1.0.0",
           "TravelPointSystem.Services.Mapping": "1.0.0",
           "TravelPointSystem.Services.Messaging": "1.0.0",
-          "TravelPointSystem.Web.Infrastructure": "1.0.0",
           "TravelPointSystem.Web.ViewModels": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
@@ -2735,14 +2734,6 @@
         },
         "compile": {
           "TravelPointSystem.Services.Messaging.dll": {}
-        }
-      },
-      "TravelPointSystem.Web.Infrastructure/1.0.0": {
-        "runtime": {
-          "TravelPointSystem.Web.Infrastructure.dll": {}
-        },
-        "compile": {
-          "TravelPointSystem.Web.Infrastructure.dll": {}
         }
       },
       "TravelPointSystem.Web.ViewModels/1.0.0": {
@@ -5673,11 +5664,6 @@
       "sha512": ""
     },
     "TravelPointSystem.Services.Messaging/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "TravelPointSystem.Web.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

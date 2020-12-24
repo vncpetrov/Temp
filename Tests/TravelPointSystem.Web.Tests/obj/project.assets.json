@@ -3675,7 +3675,6 @@
           "TravelPointSystem.Services.Data": "1.0.0",
           "TravelPointSystem.Services.Mapping": "1.0.0",
           "TravelPointSystem.Services.Messaging": "1.0.0",
-          "TravelPointSystem.Web.Infrastructure": "1.0.0",
           "TravelPointSystem.Web.ViewModels": "1.0.0"
         },
         "compile": {
@@ -3687,16 +3686,6 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
-      },
-      "TravelPointSystem.Web.Infrastructure/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "compile": {
-          "bin/placeholder/TravelPointSystem.Web.Infrastructure.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/TravelPointSystem.Web.Infrastructure.dll": {}
-        }
       },
       "TravelPointSystem.Web.ViewModels/1.0.0": {
         "type": "project",
@@ -11011,11 +11000,6 @@
       "type": "project",
       "path": "../../Web/TravelPointSystem.Web/TravelPointSystem.Web.csproj",
       "msbuildProject": "../../Web/TravelPointSystem.Web/TravelPointSystem.Web.csproj"
-    },
-    "TravelPointSystem.Web.Infrastructure/1.0.0": {
-      "type": "project",
-      "path": "../../Web/TravelPointSystem.Web.Infrastructure/TravelPointSystem.Web.Infrastructure.csproj",
-      "msbuildProject": "../../Web/TravelPointSystem.Web.Infrastructure/TravelPointSystem.Web.Infrastructure.csproj"
     },
     "TravelPointSystem.Web.ViewModels/1.0.0": {
       "type": "project",

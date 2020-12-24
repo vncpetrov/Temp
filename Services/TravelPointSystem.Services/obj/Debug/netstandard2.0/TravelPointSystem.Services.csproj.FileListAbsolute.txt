@@ -7,3 +7,12 @@ D:\Programming\Темп\TravelPointSystem\Services\TravelPointSystem.Services\ob
 D:\Programming\Темп\TravelPointSystem\Services\TravelPointSystem.Services\obj\Debug\netstandard2.0\TravelPointSystem.Services.csproj.CoreCompileInputs.cache
 D:\Programming\Темп\TravelPointSystem\Services\TravelPointSystem.Services\obj\Debug\netstandard2.0\TravelPointSystem.Services.dll
 D:\Programming\Темп\TravelPointSystem\Services\TravelPointSystem.Services\obj\Debug\netstandard2.0\TravelPointSystem.Services.pdb
+D:\Programming\Темп\Local\Temp\Services\TravelPointSystem.Services\bin\Debug\netstandard2.0\TravelPointSystem.Services.deps.json
+D:\Programming\Темп\Local\Temp\Services\TravelPointSystem.Services\bin\Debug\netstandard2.0\TravelPointSystem.Services.dll
+D:\Programming\Темп\Local\Temp\Services\TravelPointSystem.Services\bin\Debug\netstandard2.0\TravelPointSystem.Services.pdb
+D:\Programming\Темп\Local\Temp\Services\TravelPointSystem.Services\obj\Debug\netstandard2.0\TravelPointSystem.Services.csprojAssemblyReference.cache
+D:\Programming\Темп\Local\Temp\Services\TravelPointSystem.Services\obj\Debug\netstandard2.0\TravelPointSystem.Services.AssemblyInfoInputs.cache
+D:\Programming\Темп\Local\Temp\Services\TravelPointSystem.Services\obj\Debug\netstandard2.0\TravelPointSystem.Services.AssemblyInfo.cs
+D:\Programming\Темп\Local\Temp\Services\TravelPointSystem.Services\obj\Debug\netstandard2.0\TravelPointSystem.Services.csproj.CoreCompileInputs.cache
+D:\Programming\Темп\Local\Temp\Services\TravelPointSystem.Services\obj\Debug\netstandard2.0\TravelPointSystem.Services.dll
+D:\Programming\Темп\Local\Temp\Services\TravelPointSystem.Services\obj\Debug\netstandard2.0\TravelPointSystem.Services.pdb

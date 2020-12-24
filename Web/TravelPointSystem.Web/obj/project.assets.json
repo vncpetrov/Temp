@@ -3114,16 +3114,6 @@
           "bin/placeholder/TravelPointSystem.Services.Messaging.dll": {}
         }
       },
-      "TravelPointSystem.Web.Infrastructure/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "compile": {
-          "bin/placeholder/TravelPointSystem.Web.Infrastructure.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/TravelPointSystem.Web.Infrastructure.dll": {}
-        }
-      },
       "TravelPointSystem.Web.ViewModels/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
@@ -9760,11 +9750,6 @@
       "path": "../../Services/TravelPointSystem.Services.Messaging/TravelPointSystem.Services.Messaging.csproj",
       "msbuildProject": "../../Services/TravelPointSystem.Services.Messaging/TravelPointSystem.Services.Messaging.csproj"
     },
-    "TravelPointSystem.Web.Infrastructure/1.0.0": {
-      "type": "project",
-      "path": "../TravelPointSystem.Web.Infrastructure/TravelPointSystem.Web.Infrastructure.csproj",
-      "msbuildProject": "../TravelPointSystem.Web.Infrastructure/TravelPointSystem.Web.Infrastructure.csproj"
-    },
     "TravelPointSystem.Web.ViewModels/1.0.0": {
       "type": "project",
       "path": "../TravelPointSystem.Web.ViewModels/TravelPointSystem.Web.ViewModels.csproj",
@@ -9790,7 +9775,6 @@
       "TravelPointSystem.Services.Data >= 1.0.0",
       "TravelPointSystem.Services.Mapping >= 1.0.0",
       "TravelPointSystem.Services.Messaging >= 1.0.0",
-      "TravelPointSystem.Web.Infrastructure >= 1.0.0",
       "TravelPointSystem.Web.ViewModels >= 1.0.0"
     ]
   },
@@ -9841,9 +9825,6 @@
             },
             "D:\\Programming\\Темп\\Local\\Temp\\Services\\TravelPointSystem.Services\\TravelPointSystem.Services.csproj": {
               "projectPath": "D:\\Programming\\Темп\\Local\\Temp\\Services\\TravelPointSystem.Services\\TravelPointSystem.Services.csproj"
-            },
-            "D:\\Programming\\Темп\\Local\\Temp\\Web\\TravelPointSystem.Web.Infrastructure\\TravelPointSystem.Web.Infrastructure.csproj": {
-              "projectPath": "D:\\Programming\\Темп\\Local\\Temp\\Web\\TravelPointSystem.Web.Infrastructure\\TravelPointSystem.Web.Infrastructure.csproj"
             },
             "D:\\Programming\\Темп\\Local\\Temp\\Web\\TravelPointSystem.Web.ViewModels\\TravelPointSystem.Web.ViewModels.csproj": {
               "projectPath": "D:\\Programming\\Темп\\Local\\Temp\\Web\\TravelPointSystem.Web.ViewModels\\TravelPointSystem.Web.ViewModels.csproj"

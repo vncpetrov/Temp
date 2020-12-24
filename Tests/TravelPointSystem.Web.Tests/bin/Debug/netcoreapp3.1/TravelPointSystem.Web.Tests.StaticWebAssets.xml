@@ -1,0 +1,4 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="/Identity" Path="C:\Users\Ventsi\.nuget\packages\microsoft.aspnetcore.identity.ui\3.1.10\staticwebassets\V4\" />
+  <ContentRoot BasePath="_content/TravelPointSystem.Web" Path="D:\Programming\Темп\Local\Temp\Web\TravelPointSystem.Web\wwwroot\" />
+</StaticWebAssets>

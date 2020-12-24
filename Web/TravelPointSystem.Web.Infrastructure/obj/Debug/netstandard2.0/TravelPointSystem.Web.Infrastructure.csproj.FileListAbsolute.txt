@@ -1,9 +1,0 @@
-D:\Programming\Темп\TravelPointSystem\Web\TravelPointSystem.Web.Infrastructure\bin\Debug\netstandard2.0\TravelPointSystem.Web.Infrastructure.deps.json
-D:\Programming\Темп\TravelPointSystem\Web\TravelPointSystem.Web.Infrastructure\bin\Debug\netstandard2.0\TravelPointSystem.Web.Infrastructure.dll
-D:\Programming\Темп\TravelPointSystem\Web\TravelPointSystem.Web.Infrastructure\bin\Debug\netstandard2.0\TravelPointSystem.Web.Infrastructure.pdb
-D:\Programming\Темп\TravelPointSystem\Web\TravelPointSystem.Web.Infrastructure\obj\Debug\netstandard2.0\TravelPointSystem.Web.Infrastructure.csprojAssemblyReference.cache
-D:\Programming\Темп\TravelPointSystem\Web\TravelPointSystem.Web.Infrastructure\obj\Debug\netstandard2.0\TravelPointSystem.Web.Infrastructure.AssemblyInfoInputs.cache
-D:\Programming\Темп\TravelPointSystem\Web\TravelPointSystem.Web.Infrastructure\obj\Debug\netstandard2.0\TravelPointSystem.Web.Infrastructure.AssemblyInfo.cs
-D:\Programming\Темп\TravelPointSystem\Web\TravelPointSystem.Web.Infrastructure\obj\Debug\netstandard2.0\TravelPointSystem.Web.Infrastructure.csproj.CoreCompileInputs.cache
-D:\Programming\Темп\TravelPointSystem\Web\TravelPointSystem.Web.Infrastructure\obj\Debug\netstandard2.0\TravelPointSystem.Web.Infrastructure.dll
-D:\Programming\Темп\TravelPointSystem\Web\TravelPointSystem.Web.Infrastructure\obj\Debug\netstandard2.0\TravelPointSystem.Web.Infrastructure.pdb

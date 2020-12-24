@@ -49,7 +49,6 @@
     <ProjectReference Include="..\..\Services\TravelPointSystem.Services.Data\TravelPointSystem.Services.Data.csproj" />
     <ProjectReference Include="..\..\Services\TravelPointSystem.Services.Mapping\TravelPointSystem.Services.Mapping.csproj" />
     <ProjectReference Include="..\..\Services\TravelPointSystem.Services.Messaging\TravelPointSystem.Services.Messaging.csproj" />
-    <ProjectReference Include="..\TravelPointSystem.Web.Infrastructure\TravelPointSystem.Web.Infrastructure.csproj" />
     <ProjectReference Include="..\TravelPointSystem.Web.ViewModels\TravelPointSystem.Web.ViewModels.csproj" />
     <ProjectReference Include="..\TravelPointSystem.Web.ViewModels\TravelPointSystem.Web.ViewModels.csproj" />
   </ItemGroup>
