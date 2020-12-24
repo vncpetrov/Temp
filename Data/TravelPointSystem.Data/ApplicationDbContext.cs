@@ -12,7 +12,8 @@
     using TravelPointSystem.Data.Common.Models;
     using TravelPointSystem.Data.Models;
 
-    public class ApplicationDbContext : IdentityDbContext<ApplicationUser, ApplicationRole, string>
+    public class ApplicationDbContext 
+        : IdentityDbContext<ApplicationUser, ApplicationRole, string>
     {
         private static readonly MethodInfo SetIsDeletedQueryFilterMethod =
             typeof(ApplicationDbContext).GetMethod(
@@ -42,7 +43,8 @@
 
         public DbSet<Tourist> Tourists { get; set; }
 
-        public override int SaveChanges() => this.SaveChanges(true);
+        public override int SaveChanges()
+            => this.SaveChanges(true);
 
         public override int SaveChanges(bool acceptAllChangesOnSuccess)
         {
@@ -50,9 +52,10 @@
             return base.SaveChanges(acceptAllChangesOnSuccess);
         }
 
-        public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default) =>
-            this.SaveChangesAsync(true, cancellationToken);
-        
+        public override Task<int> SaveChangesAsync(
+            CancellationToken cancellationToken = default)
+            => this.SaveChangesAsync(true, cancellationToken);
+
         public override Task<int> SaveChangesAsync(
             bool acceptAllChangesOnSuccess,
             CancellationToken cancellationToken = default)
@@ -66,6 +69,9 @@
             // Needed for Identity models configuration
             base.OnModelCreating(builder);
 
+            builder.ApplyConfigurationsFromAssembly(
+                Assembly.GetExecutingAssembly());
+             
             ConfigureUserIdentityRelations(builder);
 
             EntityIndexesConfiguration.Configure(builder);
@@ -74,16 +80,21 @@
 
             // Set global query filter for not deleted entities only
             var deletableEntityTypes = entityTypes
-                .Where(et => et.ClrType != null && typeof(IDeletableEntity).IsAssignableFrom(et.ClrType));
+                .Where(et => et.ClrType != null 
+                             && typeof(IDeletableEntity).IsAssignableFrom(et.ClrType));
+
             foreach (var deletableEntityType in deletableEntityTypes)
             {
-                var method = SetIsDeletedQueryFilterMethod.MakeGenericMethod(deletableEntityType.ClrType);
+                var method = SetIsDeletedQueryFilterMethod
+                    .MakeGenericMethod(deletableEntityType.ClrType);
                 method.Invoke(null, new object[] { builder });
             }
 
             // Disable cascade delete
             var foreignKeys = entityTypes
-                .SelectMany(e => e.GetForeignKeys().Where(f => f.DeleteBehavior == DeleteBehavior.Cascade));
+                .SelectMany(e => e.GetForeignKeys()
+                                  .Where(f => f.DeleteBehavior == DeleteBehavior.Cascade));
+
             foreach (var foreignKey in foreignKeys)
             {
                 foreignKey.DeleteBehavior = DeleteBehavior.Restrict;
@@ -92,37 +103,37 @@
 
         private static void ConfigureUserIdentityRelations(ModelBuilder builder)
         {
-            builder.Entity<ApplicationUser>()
-                .HasMany(e => e.Claims)
-                .WithOne()
-                .HasForeignKey(e => e.UserId)
-                .IsRequired()
-                .OnDelete(DeleteBehavior.Restrict);
+            //builder.Entity<ApplicationUser>()
+            //    .HasMany(e => e.Claims)
+            //    .WithOne()
+            //    .HasForeignKey(e => e.UserId)
+            //    .IsRequired()
+            //    .OnDelete(DeleteBehavior.Restrict);
 
-            builder.Entity<ApplicationUser>()
-                .HasMany(e => e.Logins)
-                .WithOne()
-                .HasForeignKey(e => e.UserId)
-                .IsRequired()
-                .OnDelete(DeleteBehavior.Restrict);
+            //builder.Entity<ApplicationUser>()
+            //    .HasMany(e => e.Logins)
+            //    .WithOne()
+            //    .HasForeignKey(e => e.UserId)
+            //    .IsRequired()
+            //    .OnDelete(DeleteBehavior.Restrict);
 
-            builder.Entity<ApplicationUser>()
-                .HasMany(e => e.Roles)
-                .WithOne()
-                .HasForeignKey(e => e.UserId)
-                .IsRequired()
-                .OnDelete(DeleteBehavior.Restrict);
+            //builder.Entity<ApplicationUser>()
+            //    .HasMany(e => e.Roles)
+            //    .WithOne()
+            //    .HasForeignKey(e => e.UserId)
+            //    .IsRequired()
+            //    .OnDelete(DeleteBehavior.Restrict);
 
             // One-to-many relationship between ApplicationUsers and Reservations
-            builder.Entity<ApplicationUser>()
-                .HasMany(au => au.Reservations)
-                .WithOne(r => r.Creator)
-                .HasForeignKey(r => r.CreatorId);
+            //builder.Entity<ApplicationUser>()
+            //    .HasMany(au => au.Reservations)
+            //    .WithOne(r => r.Creator)
+            //    .HasForeignKey(r => r.CreatorId);
 
-            builder.Entity<Reservation>()
-                .HasOne<ApplicationUser>(r => r.Creator)
-                .WithMany(au => au.Reservations)
-                .HasForeignKey(r => r.CreatorId);
+            //builder.Entity<Reservation>()
+            //    .HasOne<ApplicationUser>(r => r.Creator)
+            //    .WithMany(au => au.Reservations)
+            //    .HasForeignKey(r => r.CreatorId);
 
             // One-to-many relationship between OrganizedTrips and Destinations
             builder.Entity<OrganizedTrip>()
@@ -280,7 +291,9 @@
         private static void SetIsDeletedQueryFilter<T>(ModelBuilder builder)
             where T : class, IDeletableEntity
         {
-            builder.Entity<T>().HasQueryFilter(e => !e.IsDeleted);
+            builder
+                .Entity<T>()
+                .HasQueryFilter(e => !e.IsDeleted);
         }
 
         private void ApplyAuditInfoRules()
