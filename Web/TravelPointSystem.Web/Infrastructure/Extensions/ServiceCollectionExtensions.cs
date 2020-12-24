@@ -3,6 +3,7 @@
     using Microsoft.AspNetCore.Builder;
     using Microsoft.AspNetCore.Http;
     using Microsoft.AspNetCore.Mvc;
+    using Microsoft.AspNetCore.Mvc.Authorization;
     using Microsoft.EntityFrameworkCore;
     using Microsoft.Extensions.Configuration;
     using Microsoft.Extensions.DependencyInjection;
@@ -45,10 +46,12 @@
         public static IServiceCollection AddMvcControllers(this IServiceCollection services)
         {
             services
-                .AddControllersWithViews(configure =>
+                .AddControllersWithViews(config =>
                 {
-                    configure.Filters.Add(new AutoValidateAntiforgeryTokenAttribute());
-                });
+                    config.Filters.Add(new AutoValidateAntiforgeryTokenAttribute());
+                    config.Filters.Add(new AuthorizeFilter());
+                })
+                .AddRazorRuntimeCompilation();
 
             services
                 .AddRazorPages();
