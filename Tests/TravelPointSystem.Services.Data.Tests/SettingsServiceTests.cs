@@ -47,5 +47,31 @@
             var service = new SettingsService(repository);
             Assert.Equal(3, service.GetCount());
         }
+
+        [Fact]
+        public async Task GetCountShouldReturnCorrectNumberUsingDbContextSAMPLE()
+        {
+            // Arrange
+            int expected = 3;
+
+            var dbContextOptions = new DbContextOptionsBuilder<ApplicationDbContext>()
+                .UseInMemoryDatabase(databaseName: "SettingsTestDb")
+                .Options;
+
+            var dbContext = new ApplicationDbContext(dbContextOptions);
+            dbContext.Settings.Add(new Setting());
+            dbContext.Settings.Add(new Setting());
+            dbContext.Settings.Add(new Setting());
+            await dbContext.SaveChangesAsync();
+
+            var repository = new EfDeletableEntityRepository<Setting>(dbContext);
+            var service = new SettingsService(repository);
+
+            // Act
+            int actual = service.GetCount();
+
+            // Assert
+            Assert.Equal(expected, actual);
+        }
     }
 }
