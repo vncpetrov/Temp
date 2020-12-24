@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programming\\Темп\\TravelPointSystem\\Services\\TravelPointSystem.Services.Messaging\\TravelPointSystem.Services.Messaging.csproj": {}
+    "D:\\Programming\\Темп\\Local\\Temp\\Services\\TravelPointSystem.Services.Messaging\\TravelPointSystem.Services.Messaging.csproj": {}
   },
   "projects": {
-    "D:\\Programming\\Темп\\TravelPointSystem\\Services\\TravelPointSystem.Services.Messaging\\TravelPointSystem.Services.Messaging.csproj": {
+    "D:\\Programming\\Темп\\Local\\Temp\\Services\\TravelPointSystem.Services.Messaging\\TravelPointSystem.Services.Messaging.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programming\\Темп\\TravelPointSystem\\Services\\TravelPointSystem.Services.Messaging\\TravelPointSystem.Services.Messaging.csproj",
+        "projectUniqueName": "D:\\Programming\\Темп\\Local\\Temp\\Services\\TravelPointSystem.Services.Messaging\\TravelPointSystem.Services.Messaging.csproj",
         "projectName": "TravelPointSystem.Services.Messaging",
-        "projectPath": "D:\\Programming\\Темп\\TravelPointSystem\\Services\\TravelPointSystem.Services.Messaging\\TravelPointSystem.Services.Messaging.csproj",
+        "projectPath": "D:\\Programming\\Темп\\Local\\Temp\\Services\\TravelPointSystem.Services.Messaging\\TravelPointSystem.Services.Messaging.csproj",
         "packagesPath": "C:\\Users\\Ventsi\\.nuget\\packages\\",
-        "outputPath": "D:\\Programming\\Темп\\TravelPointSystem\\Services\\TravelPointSystem.Services.Messaging\\obj\\",
+        "outputPath": "D:\\Programming\\Темп\\Local\\Temp\\Services\\TravelPointSystem.Services.Messaging\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ventsi\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -11041,11 +11041,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programming\\Темп\\TravelPointSystem\\Tests\\TravelPointSystem.Web.Tests\\TravelPointSystem.Web.Tests.csproj",
+      "projectUniqueName": "D:\\Programming\\Темп\\Local\\Temp\\Tests\\TravelPointSystem.Web.Tests\\TravelPointSystem.Web.Tests.csproj",
       "projectName": "TravelPointSystem.Web.Tests",
-      "projectPath": "D:\\Programming\\Темп\\TravelPointSystem\\Tests\\TravelPointSystem.Web.Tests\\TravelPointSystem.Web.Tests.csproj",
+      "projectPath": "D:\\Programming\\Темп\\Local\\Temp\\Tests\\TravelPointSystem.Web.Tests\\TravelPointSystem.Web.Tests.csproj",
       "packagesPath": "C:\\Users\\Ventsi\\.nuget\\packages\\",
-      "outputPath": "D:\\Programming\\Темп\\TravelPointSystem\\Tests\\TravelPointSystem.Web.Tests\\obj\\",
+      "outputPath": "D:\\Programming\\Темп\\Local\\Temp\\Tests\\TravelPointSystem.Web.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ventsi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -11062,8 +11062,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\Programming\\Темп\\TravelPointSystem\\Web\\TravelPointSystem.Web\\TravelPointSystem.Web.csproj": {
-              "projectPath": "D:\\Programming\\Темп\\TravelPointSystem\\Web\\TravelPointSystem.Web\\TravelPointSystem.Web.csproj"
+            "D:\\Programming\\Темп\\Local\\Temp\\Web\\TravelPointSystem.Web\\TravelPointSystem.Web.csproj": {
+              "projectPath": "D:\\Programming\\Темп\\Local\\Temp\\Web\\TravelPointSystem.Web\\TravelPointSystem.Web.csproj"
             }
           }
         }

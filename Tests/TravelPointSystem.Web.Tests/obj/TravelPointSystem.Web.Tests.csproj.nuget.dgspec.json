@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programming\\Темп\\TravelPointSystem\\Tests\\TravelPointSystem.Web.Tests\\TravelPointSystem.Web.Tests.csproj": {}
+    "D:\\Programming\\Темп\\Local\\Temp\\Tests\\TravelPointSystem.Web.Tests\\TravelPointSystem.Web.Tests.csproj": {}
   },
   "projects": {
-    "D:\\Programming\\Темп\\TravelPointSystem\\Data\\TravelPointSystem.Data.Common\\TravelPointSystem.Data.Common.csproj": {
+    "D:\\Programming\\Темп\\Local\\Temp\\Data\\TravelPointSystem.Data.Common\\TravelPointSystem.Data.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programming\\Темп\\TravelPointSystem\\Data\\TravelPointSystem.Data.Common\\TravelPointSystem.Data.Common.csproj",
+        "projectUniqueName": "D:\\Programming\\Темп\\Local\\Temp\\Data\\TravelPointSystem.Data.Common\\TravelPointSystem.Data.Common.csproj",
         "projectName": "TravelPointSystem.Data.Common",
-        "projectPath": "D:\\Programming\\Темп\\TravelPointSystem\\Data\\TravelPointSystem.Data.Common\\TravelPointSystem.Data.Common.csproj",
+        "projectPath": "D:\\Programming\\Темп\\Local\\Temp\\Data\\TravelPointSystem.Data.Common\\TravelPointSystem.Data.Common.csproj",
         "packagesPath": "C:\\Users\\Ventsi\\.nuget\\packages\\",
-        "outputPath": "D:\\Programming\\Темп\\TravelPointSystem\\Data\\TravelPointSystem.Data.Common\\obj\\",
+        "outputPath": "D:\\Programming\\Темп\\Local\\Temp\\Data\\TravelPointSystem.Data.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ventsi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -71,14 +71,14 @@
         }
       }
     },
-    "D:\\Programming\\Темп\\TravelPointSystem\\Data\\TravelPointSystem.Data.Models\\TravelPointSystem.Data.Models.csproj": {
+    "D:\\Programming\\Темп\\Local\\Temp\\Data\\TravelPointSystem.Data.Models\\TravelPointSystem.Data.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programming\\Темп\\TravelPointSystem\\Data\\TravelPointSystem.Data.Models\\TravelPointSystem.Data.Models.csproj",
+        "projectUniqueName": "D:\\Programming\\Темп\\Local\\Temp\\Data\\TravelPointSystem.Data.Models\\TravelPointSystem.Data.Models.csproj",
         "projectName": "TravelPointSystem.Data.Models",
-        "projectPath": "D:\\Programming\\Темп\\TravelPointSystem\\Data\\TravelPointSystem.Data.Models\\TravelPointSystem.Data.Models.csproj",
+        "projectPath": "D:\\Programming\\Темп\\Local\\Temp\\Data\\TravelPointSystem.Data.Models\\TravelPointSystem.Data.Models.csproj",
         "packagesPath": "C:\\Users\\Ventsi\\.nuget\\packages\\",
-        "outputPath": "D:\\Programming\\Темп\\TravelPointSystem\\Data\\TravelPointSystem.Data.Models\\obj\\",
+        "outputPath": "D:\\Programming\\Темп\\Local\\Temp\\Data\\TravelPointSystem.Data.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ventsi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -95,8 +95,8 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "D:\\Programming\\Темп\\TravelPointSystem\\Data\\TravelPointSystem.Data.Common\\TravelPointSystem.Data.Common.csproj": {
-                "projectPath": "D:\\Programming\\Темп\\TravelPointSystem\\Data\\TravelPointSystem.Data.Common\\TravelPointSystem.Data.Common.csproj"
+              "D:\\Programming\\Темп\\Local\\Temp\\Data\\TravelPointSystem.Data.Common\\TravelPointSystem.Data.Common.csproj": {
+                "projectPath": "D:\\Programming\\Темп\\Local\\Temp\\Data\\TravelPointSystem.Data.Common\\TravelPointSystem.Data.Common.csproj"
               }
             }
           }
@@ -141,14 +141,14 @@
         }
       }
     },
-    "D:\\Programming\\Темп\\TravelPointSystem\\Data\\TravelPointSystem.Data\\TravelPointSystem.Data.csproj": {
+    "D:\\Programming\\Темп\\Local\\Temp\\Data\\TravelPointSystem.Data\\TravelPointSystem.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programming\\Темп\\TravelPointSystem\\Data\\TravelPointSystem.Data\\TravelPointSystem.Data.csproj",
+        "projectUniqueName": "D:\\Programming\\Темп\\Local\\Temp\\Data\\TravelPointSystem.Data\\TravelPointSystem.Data.csproj",
         "projectName": "TravelPointSystem.Data",
-        "projectPath": "D:\\Programming\\Темп\\TravelPointSystem\\Data\\TravelPointSystem.Data\\TravelPointSystem.Data.csproj",
+        "projectPath": "D:\\Programming\\Темп\\Local\\Temp\\Data\\TravelPointSystem.Data\\TravelPointSystem.Data.csproj",
         "packagesPath": "C:\\Users\\Ventsi\\.nuget\\packages\\",
-        "outputPath": "D:\\Programming\\Темп\\TravelPointSystem\\Data\\TravelPointSystem.Data\\obj\\",
+        "outputPath": "D:\\Programming\\Темп\\Local\\Temp\\Data\\TravelPointSystem.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ventsi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -165,14 +165,14 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Programming\\Темп\\TravelPointSystem\\Data\\TravelPointSystem.Data.Common\\TravelPointSystem.Data.Common.csproj": {
-                "projectPath": "D:\\Programming\\Темп\\TravelPointSystem\\Data\\TravelPointSystem.Data.Common\\TravelPointSystem.Data.Common.csproj"
+              "D:\\Programming\\Темп\\Local\\Temp\\Data\\TravelPointSystem.Data.Common\\TravelPointSystem.Data.Common.csproj": {
+                "projectPath": "D:\\Programming\\Темп\\Local\\Temp\\Data\\TravelPointSystem.Data.Common\\TravelPointSystem.Data.Common.csproj"
               },
-              "D:\\Programming\\Темп\\TravelPointSystem\\Data\\TravelPointSystem.Data.Models\\TravelPointSystem.Data.Models.csproj": {
-                "projectPath": "D:\\Programming\\Темп\\TravelPointSystem\\Data\\TravelPointSystem.Data.Models\\TravelPointSystem.Data.Models.csproj"
+              "D:\\Programming\\Темп\\Local\\Temp\\Data\\TravelPointSystem.Data.Models\\TravelPointSystem.Data.Models.csproj": {
+                "projectPath": "D:\\Programming\\Темп\\Local\\Temp\\Data\\TravelPointSystem.Data.Models\\TravelPointSystem.Data.Models.csproj"
               },
-              "D:\\Programming\\Темп\\TravelPointSystem\\TravelPointSystem.Common\\TravelPointSystem.Common.csproj": {
-                "projectPath": "D:\\Programming\\Темп\\TravelPointSystem\\TravelPointSystem.Common\\TravelPointSystem.Common.csproj"
+              "D:\\Programming\\Темп\\Local\\Temp\\TravelPointSystem.Common\\TravelPointSystem.Common.csproj": {
+                "projectPath": "D:\\Programming\\Темп\\Local\\Temp\\TravelPointSystem.Common\\TravelPointSystem.Common.csproj"
               }
             }
           }
@@ -237,14 +237,14 @@
         }
       }
     },
-    "D:\\Programming\\Темп\\TravelPointSystem\\Services\\TravelPointSystem.Services.Data\\TravelPointSystem.Services.Data.csproj": {
+    "D:\\Programming\\Темп\\Local\\Temp\\Services\\TravelPointSystem.Services.Data\\TravelPointSystem.Services.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programming\\Темп\\TravelPointSystem\\Services\\TravelPointSystem.Services.Data\\TravelPointSystem.Services.Data.csproj",
+        "projectUniqueName": "D:\\Programming\\Темп\\Local\\Temp\\Services\\TravelPointSystem.Services.Data\\TravelPointSystem.Services.Data.csproj",
         "projectName": "TravelPointSystem.Services.Data",
-        "projectPath": "D:\\Programming\\Темп\\TravelPointSystem\\Services\\TravelPointSystem.Services.Data\\TravelPointSystem.Services.Data.csproj",
+        "projectPath": "D:\\Programming\\Темп\\Local\\Temp\\Services\\TravelPointSystem.Services.Data\\TravelPointSystem.Services.Data.csproj",
         "packagesPath": "C:\\Users\\Ventsi\\.nuget\\packages\\",
-        "outputPath": "D:\\Programming\\Темп\\TravelPointSystem\\Services\\TravelPointSystem.Services.Data\\obj\\",
+        "outputPath": "D:\\Programming\\Темп\\Local\\Temp\\Services\\TravelPointSystem.Services.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ventsi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -261,17 +261,17 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "D:\\Programming\\Темп\\TravelPointSystem\\Data\\TravelPointSystem.Data.Common\\TravelPointSystem.Data.Common.csproj": {
-                "projectPath": "D:\\Programming\\Темп\\TravelPointSystem\\Data\\TravelPointSystem.Data.Common\\TravelPointSystem.Data.Common.csproj"
+              "D:\\Programming\\Темп\\Local\\Temp\\Data\\TravelPointSystem.Data.Common\\TravelPointSystem.Data.Common.csproj": {
+                "projectPath": "D:\\Programming\\Темп\\Local\\Temp\\Data\\TravelPointSystem.Data.Common\\TravelPointSystem.Data.Common.csproj"
               },
-              "D:\\Programming\\Темп\\TravelPointSystem\\Data\\TravelPointSystem.Data.Models\\TravelPointSystem.Data.Models.csproj": {
-                "projectPath": "D:\\Programming\\Темп\\TravelPointSystem\\Data\\TravelPointSystem.Data.Models\\TravelPointSystem.Data.Models.csproj"
+              "D:\\Programming\\Темп\\Local\\Temp\\Data\\TravelPointSystem.Data.Models\\TravelPointSystem.Data.Models.csproj": {
+                "projectPath": "D:\\Programming\\Темп\\Local\\Temp\\Data\\TravelPointSystem.Data.Models\\TravelPointSystem.Data.Models.csproj"
               },
-              "D:\\Programming\\Темп\\TravelPointSystem\\Services\\TravelPointSystem.Services.Mapping\\TravelPointSystem.Services.Mapping.csproj": {
-                "projectPath": "D:\\Programming\\Темп\\TravelPointSystem\\Services\\TravelPointSystem.Services.Mapping\\TravelPointSystem.Services.Mapping.csproj"
+              "D:\\Programming\\Темп\\Local\\Temp\\Services\\TravelPointSystem.Services.Mapping\\TravelPointSystem.Services.Mapping.csproj": {
+                "projectPath": "D:\\Programming\\Темп\\Local\\Temp\\Services\\TravelPointSystem.Services.Mapping\\TravelPointSystem.Services.Mapping.csproj"
               },
-              "D:\\Programming\\Темп\\TravelPointSystem\\Web\\TravelPointSystem.Web.ViewModels\\TravelPointSystem.Web.ViewModels.csproj": {
-                "projectPath": "D:\\Programming\\Темп\\TravelPointSystem\\Web\\TravelPointSystem.Web.ViewModels\\TravelPointSystem.Web.ViewModels.csproj"
+              "D:\\Programming\\Темп\\Local\\Temp\\Web\\TravelPointSystem.Web.ViewModels\\TravelPointSystem.Web.ViewModels.csproj": {
+                "projectPath": "D:\\Programming\\Темп\\Local\\Temp\\Web\\TravelPointSystem.Web.ViewModels\\TravelPointSystem.Web.ViewModels.csproj"
               }
             }
           }
@@ -312,14 +312,14 @@
         }
       }
     },
-    "D:\\Programming\\Темп\\TravelPointSystem\\Services\\TravelPointSystem.Services.Mapping\\TravelPointSystem.Services.Mapping.csproj": {
+    "D:\\Programming\\Темп\\Local\\Temp\\Services\\TravelPointSystem.Services.Mapping\\TravelPointSystem.Services.Mapping.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programming\\Темп\\TravelPointSystem\\Services\\TravelPointSystem.Services.Mapping\\TravelPointSystem.Services.Mapping.csproj",
+        "projectUniqueName": "D:\\Programming\\Темп\\Local\\Temp\\Services\\TravelPointSystem.Services.Mapping\\TravelPointSystem.Services.Mapping.csproj",
         "projectName": "TravelPointSystem.Services.Mapping",
-        "projectPath": "D:\\Programming\\Темп\\TravelPointSystem\\Services\\TravelPointSystem.Services.Mapping\\TravelPointSystem.Services.Mapping.csproj",
+        "projectPath": "D:\\Programming\\Темп\\Local\\Temp\\Services\\TravelPointSystem.Services.Mapping\\TravelPointSystem.Services.Mapping.csproj",
         "packagesPath": "C:\\Users\\Ventsi\\.nuget\\packages\\",
-        "outputPath": "D:\\Programming\\Темп\\TravelPointSystem\\Services\\TravelPointSystem.Services.Mapping\\obj\\",
+        "outputPath": "D:\\Programming\\Темп\\Local\\Temp\\Services\\TravelPointSystem.Services.Mapping\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ventsi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -379,14 +379,14 @@
         }
       }
     },
-    "D:\\Programming\\Темп\\TravelPointSystem\\Services\\TravelPointSystem.Services.Messaging\\TravelPointSystem.Services.Messaging.csproj": {
+    "D:\\Programming\\Темп\\Local\\Temp\\Services\\TravelPointSystem.Services.Messaging\\TravelPointSystem.Services.Messaging.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programming\\Темп\\TravelPointSystem\\Services\\TravelPointSystem.Services.Messaging\\TravelPointSystem.Services.Messaging.csproj",
+        "projectUniqueName": "D:\\Programming\\Темп\\Local\\Temp\\Services\\TravelPointSystem.Services.Messaging\\TravelPointSystem.Services.Messaging.csproj",
         "projectName": "TravelPointSystem.Services.Messaging",
-        "projectPath": "D:\\Programming\\Темп\\TravelPointSystem\\Services\\TravelPointSystem.Services.Messaging\\TravelPointSystem.Services.Messaging.csproj",
+        "projectPath": "D:\\Programming\\Темп\\Local\\Temp\\Services\\TravelPointSystem.Services.Messaging\\TravelPointSystem.Services.Messaging.csproj",
         "packagesPath": "C:\\Users\\Ventsi\\.nuget\\packages\\",
-        "outputPath": "D:\\Programming\\Темп\\TravelPointSystem\\Services\\TravelPointSystem.Services.Messaging\\obj\\",
+        "outputPath": "D:\\Programming\\Темп\\Local\\Temp\\Services\\TravelPointSystem.Services.Messaging\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ventsi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -446,14 +446,14 @@
         }
       }
     },
-    "D:\\Programming\\Темп\\TravelPointSystem\\Services\\TravelPointSystem.Services\\TravelPointSystem.Services.csproj": {
+    "D:\\Programming\\Темп\\Local\\Temp\\Services\\TravelPointSystem.Services\\TravelPointSystem.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programming\\Темп\\TravelPointSystem\\Services\\TravelPointSystem.Services\\TravelPointSystem.Services.csproj",
+        "projectUniqueName": "D:\\Programming\\Темп\\Local\\Temp\\Services\\TravelPointSystem.Services\\TravelPointSystem.Services.csproj",
         "projectName": "TravelPointSystem.Services",
-        "projectPath": "D:\\Programming\\Темп\\TravelPointSystem\\Services\\TravelPointSystem.Services\\TravelPointSystem.Services.csproj",
+        "projectPath": "D:\\Programming\\Темп\\Local\\Temp\\Services\\TravelPointSystem.Services\\TravelPointSystem.Services.csproj",
         "packagesPath": "C:\\Users\\Ventsi\\.nuget\\packages\\",
-        "outputPath": "D:\\Programming\\Темп\\TravelPointSystem\\Services\\TravelPointSystem.Services\\obj\\",
+        "outputPath": "D:\\Programming\\Темп\\Local\\Temp\\Services\\TravelPointSystem.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ventsi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -509,14 +509,14 @@
         }
       }
     },
-    "D:\\Programming\\Темп\\TravelPointSystem\\Tests\\TravelPointSystem.Web.Tests\\TravelPointSystem.Web.Tests.csproj": {
+    "D:\\Programming\\Темп\\Local\\Temp\\Tests\\TravelPointSystem.Web.Tests\\TravelPointSystem.Web.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programming\\Темп\\TravelPointSystem\\Tests\\TravelPointSystem.Web.Tests\\TravelPointSystem.Web.Tests.csproj",
+        "projectUniqueName": "D:\\Programming\\Темп\\Local\\Temp\\Tests\\TravelPointSystem.Web.Tests\\TravelPointSystem.Web.Tests.csproj",
         "projectName": "TravelPointSystem.Web.Tests",
-        "projectPath": "D:\\Programming\\Темп\\TravelPointSystem\\Tests\\TravelPointSystem.Web.Tests\\TravelPointSystem.Web.Tests.csproj",
+        "projectPath": "D:\\Programming\\Темп\\Local\\Temp\\Tests\\TravelPointSystem.Web.Tests\\TravelPointSystem.Web.Tests.csproj",
         "packagesPath": "C:\\Users\\Ventsi\\.nuget\\packages\\",
-        "outputPath": "D:\\Programming\\Темп\\TravelPointSystem\\Tests\\TravelPointSystem.Web.Tests\\obj\\",
+        "outputPath": "D:\\Programming\\Темп\\Local\\Temp\\Tests\\TravelPointSystem.Web.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ventsi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -533,8 +533,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Programming\\Темп\\TravelPointSystem\\Web\\TravelPointSystem.Web\\TravelPointSystem.Web.csproj": {
-                "projectPath": "D:\\Programming\\Темп\\TravelPointSystem\\Web\\TravelPointSystem.Web\\TravelPointSystem.Web.csproj"
+              "D:\\Programming\\Темп\\Local\\Temp\\Web\\TravelPointSystem.Web\\TravelPointSystem.Web.csproj": {
+                "projectPath": "D:\\Programming\\Темп\\Local\\Temp\\Web\\TravelPointSystem.Web\\TravelPointSystem.Web.csproj"
               }
             }
           }
@@ -604,14 +604,14 @@
         }
       }
     },
-    "D:\\Programming\\Темп\\TravelPointSystem\\TravelPointSystem.Common\\TravelPointSystem.Common.csproj": {
+    "D:\\Programming\\Темп\\Local\\Temp\\TravelPointSystem.Common\\TravelPointSystem.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programming\\Темп\\TravelPointSystem\\TravelPointSystem.Common\\TravelPointSystem.Common.csproj",
+        "projectUniqueName": "D:\\Programming\\Темп\\Local\\Temp\\TravelPointSystem.Common\\TravelPointSystem.Common.csproj",
         "projectName": "TravelPointSystem.Common",
-        "projectPath": "D:\\Programming\\Темп\\TravelPointSystem\\TravelPointSystem.Common\\TravelPointSystem.Common.csproj",
+        "projectPath": "D:\\Programming\\Темп\\Local\\Temp\\TravelPointSystem.Common\\TravelPointSystem.Common.csproj",
         "packagesPath": "C:\\Users\\Ventsi\\.nuget\\packages\\",
-        "outputPath": "D:\\Programming\\Темп\\TravelPointSystem\\TravelPointSystem.Common\\obj\\",
+        "outputPath": "D:\\Programming\\Темп\\Local\\Temp\\TravelPointSystem.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ventsi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -667,14 +667,14 @@
         }
       }
     },
-    "D:\\Programming\\Темп\\TravelPointSystem\\Web\\TravelPointSystem.Web.Infrastructure\\TravelPointSystem.Web.Infrastructure.csproj": {
+    "D:\\Programming\\Темп\\Local\\Temp\\Web\\TravelPointSystem.Web.Infrastructure\\TravelPointSystem.Web.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programming\\Темп\\TravelPointSystem\\Web\\TravelPointSystem.Web.Infrastructure\\TravelPointSystem.Web.Infrastructure.csproj",
+        "projectUniqueName": "D:\\Programming\\Темп\\Local\\Temp\\Web\\TravelPointSystem.Web.Infrastructure\\TravelPointSystem.Web.Infrastructure.csproj",
         "projectName": "TravelPointSystem.Web.Infrastructure",
-        "projectPath": "D:\\Programming\\Темп\\TravelPointSystem\\Web\\TravelPointSystem.Web.Infrastructure\\TravelPointSystem.Web.Infrastructure.csproj",
+        "projectPath": "D:\\Programming\\Темп\\Local\\Temp\\Web\\TravelPointSystem.Web.Infrastructure\\TravelPointSystem.Web.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Ventsi\\.nuget\\packages\\",
-        "outputPath": "D:\\Programming\\Темп\\TravelPointSystem\\Web\\TravelPointSystem.Web.Infrastructure\\obj\\",
+        "outputPath": "D:\\Programming\\Темп\\Local\\Temp\\Web\\TravelPointSystem.Web.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ventsi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -730,14 +730,14 @@
         }
       }
     },
-    "D:\\Programming\\Темп\\TravelPointSystem\\Web\\TravelPointSystem.Web.ViewModels\\TravelPointSystem.Web.ViewModels.csproj": {
+    "D:\\Programming\\Темп\\Local\\Temp\\Web\\TravelPointSystem.Web.ViewModels\\TravelPointSystem.Web.ViewModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programming\\Темп\\TravelPointSystem\\Web\\TravelPointSystem.Web.ViewModels\\TravelPointSystem.Web.ViewModels.csproj",
+        "projectUniqueName": "D:\\Programming\\Темп\\Local\\Temp\\Web\\TravelPointSystem.Web.ViewModels\\TravelPointSystem.Web.ViewModels.csproj",
         "projectName": "TravelPointSystem.Web.ViewModels",
-        "projectPath": "D:\\Programming\\Темп\\TravelPointSystem\\Web\\TravelPointSystem.Web.ViewModels\\TravelPointSystem.Web.ViewModels.csproj",
+        "projectPath": "D:\\Programming\\Темп\\Local\\Temp\\Web\\TravelPointSystem.Web.ViewModels\\TravelPointSystem.Web.ViewModels.csproj",
         "packagesPath": "C:\\Users\\Ventsi\\.nuget\\packages\\",
-        "outputPath": "D:\\Programming\\Темп\\TravelPointSystem\\Web\\TravelPointSystem.Web.ViewModels\\obj\\",
+        "outputPath": "D:\\Programming\\Темп\\Local\\Temp\\Web\\TravelPointSystem.Web.ViewModels\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ventsi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -754,11 +754,11 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "D:\\Programming\\Темп\\TravelPointSystem\\Data\\TravelPointSystem.Data.Models\\TravelPointSystem.Data.Models.csproj": {
-                "projectPath": "D:\\Programming\\Темп\\TravelPointSystem\\Data\\TravelPointSystem.Data.Models\\TravelPointSystem.Data.Models.csproj"
+              "D:\\Programming\\Темп\\Local\\Temp\\Data\\TravelPointSystem.Data.Models\\TravelPointSystem.Data.Models.csproj": {
+                "projectPath": "D:\\Programming\\Темп\\Local\\Temp\\Data\\TravelPointSystem.Data.Models\\TravelPointSystem.Data.Models.csproj"
               },
-              "D:\\Programming\\Темп\\TravelPointSystem\\Services\\TravelPointSystem.Services.Mapping\\TravelPointSystem.Services.Mapping.csproj": {
-                "projectPath": "D:\\Programming\\Темп\\TravelPointSystem\\Services\\TravelPointSystem.Services.Mapping\\TravelPointSystem.Services.Mapping.csproj"
+              "D:\\Programming\\Темп\\Local\\Temp\\Services\\TravelPointSystem.Services.Mapping\\TravelPointSystem.Services.Mapping.csproj": {
+                "projectPath": "D:\\Programming\\Темп\\Local\\Temp\\Services\\TravelPointSystem.Services.Mapping\\TravelPointSystem.Services.Mapping.csproj"
               }
             }
           }
@@ -799,14 +799,14 @@
         }
       }
     },
-    "D:\\Programming\\Темп\\TravelPointSystem\\Web\\TravelPointSystem.Web\\TravelPointSystem.Web.csproj": {
+    "D:\\Programming\\Темп\\Local\\Temp\\Web\\TravelPointSystem.Web\\TravelPointSystem.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programming\\Темп\\TravelPointSystem\\Web\\TravelPointSystem.Web\\TravelPointSystem.Web.csproj",
+        "projectUniqueName": "D:\\Programming\\Темп\\Local\\Temp\\Web\\TravelPointSystem.Web\\TravelPointSystem.Web.csproj",
         "projectName": "TravelPointSystem.Web",
-        "projectPath": "D:\\Programming\\Темп\\TravelPointSystem\\Web\\TravelPointSystem.Web\\TravelPointSystem.Web.csproj",
+        "projectPath": "D:\\Programming\\Темп\\Local\\Temp\\Web\\TravelPointSystem.Web\\TravelPointSystem.Web.csproj",
         "packagesPath": "C:\\Users\\Ventsi\\.nuget\\packages\\",
-        "outputPath": "D:\\Programming\\Темп\\TravelPointSystem\\Web\\TravelPointSystem.Web\\obj\\",
+        "outputPath": "D:\\Programming\\Темп\\Local\\Temp\\Web\\TravelPointSystem.Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ventsi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -823,32 +823,32 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Programming\\Темп\\TravelPointSystem\\Data\\TravelPointSystem.Data.Common\\TravelPointSystem.Data.Common.csproj": {
-                "projectPath": "D:\\Programming\\Темп\\TravelPointSystem\\Data\\TravelPointSystem.Data.Common\\TravelPointSystem.Data.Common.csproj"
+              "D:\\Programming\\Темп\\Local\\Temp\\Data\\TravelPointSystem.Data.Common\\TravelPointSystem.Data.Common.csproj": {
+                "projectPath": "D:\\Programming\\Темп\\Local\\Temp\\Data\\TravelPointSystem.Data.Common\\TravelPointSystem.Data.Common.csproj"
               },
-              "D:\\Programming\\Темп\\TravelPointSystem\\Data\\TravelPointSystem.Data.Models\\TravelPointSystem.Data.Models.csproj": {
-                "projectPath": "D:\\Programming\\Темп\\TravelPointSystem\\Data\\TravelPointSystem.Data.Models\\TravelPointSystem.Data.Models.csproj"
+              "D:\\Programming\\Темп\\Local\\Temp\\Data\\TravelPointSystem.Data.Models\\TravelPointSystem.Data.Models.csproj": {
+                "projectPath": "D:\\Programming\\Темп\\Local\\Temp\\Data\\TravelPointSystem.Data.Models\\TravelPointSystem.Data.Models.csproj"
               },
-              "D:\\Programming\\Темп\\TravelPointSystem\\Data\\TravelPointSystem.Data\\TravelPointSystem.Data.csproj": {
-                "projectPath": "D:\\Programming\\Темп\\TravelPointSystem\\Data\\TravelPointSystem.Data\\TravelPointSystem.Data.csproj"
+              "D:\\Programming\\Темп\\Local\\Temp\\Data\\TravelPointSystem.Data\\TravelPointSystem.Data.csproj": {
+                "projectPath": "D:\\Programming\\Темп\\Local\\Temp\\Data\\TravelPointSystem.Data\\TravelPointSystem.Data.csproj"
               },
-              "D:\\Programming\\Темп\\TravelPointSystem\\Services\\TravelPointSystem.Services.Data\\TravelPointSystem.Services.Data.csproj": {
-                "projectPath": "D:\\Programming\\Темп\\TravelPointSystem\\Services\\TravelPointSystem.Services.Data\\TravelPointSystem.Services.Data.csproj"
+              "D:\\Programming\\Темп\\Local\\Temp\\Services\\TravelPointSystem.Services.Data\\TravelPointSystem.Services.Data.csproj": {
+                "projectPath": "D:\\Programming\\Темп\\Local\\Temp\\Services\\TravelPointSystem.Services.Data\\TravelPointSystem.Services.Data.csproj"
               },
-              "D:\\Programming\\Темп\\TravelPointSystem\\Services\\TravelPointSystem.Services.Mapping\\TravelPointSystem.Services.Mapping.csproj": {
-                "projectPath": "D:\\Programming\\Темп\\TravelPointSystem\\Services\\TravelPointSystem.Services.Mapping\\TravelPointSystem.Services.Mapping.csproj"
+              "D:\\Programming\\Темп\\Local\\Temp\\Services\\TravelPointSystem.Services.Mapping\\TravelPointSystem.Services.Mapping.csproj": {
+                "projectPath": "D:\\Programming\\Темп\\Local\\Temp\\Services\\TravelPointSystem.Services.Mapping\\TravelPointSystem.Services.Mapping.csproj"
               },
-              "D:\\Programming\\Темп\\TravelPointSystem\\Services\\TravelPointSystem.Services.Messaging\\TravelPointSystem.Services.Messaging.csproj": {
-                "projectPath": "D:\\Programming\\Темп\\TravelPointSystem\\Services\\TravelPointSystem.Services.Messaging\\TravelPointSystem.Services.Messaging.csproj"
+              "D:\\Programming\\Темп\\Local\\Temp\\Services\\TravelPointSystem.Services.Messaging\\TravelPointSystem.Services.Messaging.csproj": {
+                "projectPath": "D:\\Programming\\Темп\\Local\\Temp\\Services\\TravelPointSystem.Services.Messaging\\TravelPointSystem.Services.Messaging.csproj"
               },
-              "D:\\Programming\\Темп\\TravelPointSystem\\Services\\TravelPointSystem.Services\\TravelPointSystem.Services.csproj": {
-                "projectPath": "D:\\Programming\\Темп\\TravelPointSystem\\Services\\TravelPointSystem.Services\\TravelPointSystem.Services.csproj"
+              "D:\\Programming\\Темп\\Local\\Temp\\Services\\TravelPointSystem.Services\\TravelPointSystem.Services.csproj": {
+                "projectPath": "D:\\Programming\\Темп\\Local\\Temp\\Services\\TravelPointSystem.Services\\TravelPointSystem.Services.csproj"
               },
-              "D:\\Programming\\Темп\\TravelPointSystem\\Web\\TravelPointSystem.Web.Infrastructure\\TravelPointSystem.Web.Infrastructure.csproj": {
-                "projectPath": "D:\\Programming\\Темп\\TravelPointSystem\\Web\\TravelPointSystem.Web.Infrastructure\\TravelPointSystem.Web.Infrastructure.csproj"
+              "D:\\Programming\\Темп\\Local\\Temp\\Web\\TravelPointSystem.Web.Infrastructure\\TravelPointSystem.Web.Infrastructure.csproj": {
+                "projectPath": "D:\\Programming\\Темп\\Local\\Temp\\Web\\TravelPointSystem.Web.Infrastructure\\TravelPointSystem.Web.Infrastructure.csproj"
               },
-              "D:\\Programming\\Темп\\TravelPointSystem\\Web\\TravelPointSystem.Web.ViewModels\\TravelPointSystem.Web.ViewModels.csproj": {
-                "projectPath": "D:\\Programming\\Темп\\TravelPointSystem\\Web\\TravelPointSystem.Web.ViewModels\\TravelPointSystem.Web.ViewModels.csproj"
+              "D:\\Programming\\Темп\\Local\\Temp\\Web\\TravelPointSystem.Web.ViewModels\\TravelPointSystem.Web.ViewModels.csproj": {
+                "projectPath": "D:\\Programming\\Темп\\Local\\Temp\\Web\\TravelPointSystem.Web.ViewModels\\TravelPointSystem.Web.ViewModels.csproj"
               }
             }
           }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4jLNXGrhRCWsuNdEnLvv6YLEPzbBUU4ERM9NFCf33p1wU40EP1+G1EkRW/sf9lflygefzpkqyGApfX+Hu1lbwg==",
+  "dgSpecHash": "OweQTg1Y7Nb7vnChjSFZdbNgq58dFZ+n2jZt8cZKTt9INPkV9EP+rN/U8CcES9A940KdfOHjzfowXznwrPmrAw==",
   "success": true,
-  "projectFilePath": "D:\\Programming\\Темп\\TravelPointSystem\\Tests\\TravelPointSystem.Web.Tests\\TravelPointSystem.Web.Tests.csproj",
+  "projectFilePath": "D:\\Programming\\Темп\\Local\\Temp\\Tests\\TravelPointSystem.Web.Tests\\TravelPointSystem.Web.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ventsi\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\Ventsi\\.nuget\\packages\\buildbundlerminifier\\3.2.435\\buildbundlerminifier.3.2.435.nupkg.sha512",

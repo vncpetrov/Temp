@@ -993,11 +993,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programming\\Темп\\TravelPointSystem\\Services\\TravelPointSystem.Services.Mapping\\TravelPointSystem.Services.Mapping.csproj",
+      "projectUniqueName": "D:\\Programming\\Темп\\Local\\Temp\\Services\\TravelPointSystem.Services.Mapping\\TravelPointSystem.Services.Mapping.csproj",
       "projectName": "TravelPointSystem.Services.Mapping",
-      "projectPath": "D:\\Programming\\Темп\\TravelPointSystem\\Services\\TravelPointSystem.Services.Mapping\\TravelPointSystem.Services.Mapping.csproj",
+      "projectPath": "D:\\Programming\\Темп\\Local\\Temp\\Services\\TravelPointSystem.Services.Mapping\\TravelPointSystem.Services.Mapping.csproj",
       "packagesPath": "C:\\Users\\Ventsi\\.nuget\\packages\\",
-      "outputPath": "D:\\Programming\\Темп\\TravelPointSystem\\Services\\TravelPointSystem.Services.Mapping\\obj\\",
+      "outputPath": "D:\\Programming\\Темп\\Local\\Temp\\Services\\TravelPointSystem.Services.Mapping\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ventsi\\AppData\\Roaming\\NuGet\\NuGet.Config",

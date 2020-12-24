@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "f2lYnw4Pu4JIMoWItSMHCL3B1ciadrgcyLrCUoSITFfBEN+X4IPP7dGxP+lb7khxHzbnqy97FDZ2Gw35FVfAug==",
+  "dgSpecHash": "jl5xpliHb1cBT49+Tsp/zh4pHbUSl9UMure9Jh4MrA3FIDxxcvHQp+t/IZ9KBGiWhDpeglJAdSq5bVvVhctOxw==",
   "success": true,
-  "projectFilePath": "D:\\Programming\\Темп\\TravelPointSystem\\Services\\TravelPointSystem.Services\\TravelPointSystem.Services.csproj",
+  "projectFilePath": "D:\\Programming\\Темп\\Local\\Temp\\Services\\TravelPointSystem.Services\\TravelPointSystem.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ventsi\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Ventsi\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

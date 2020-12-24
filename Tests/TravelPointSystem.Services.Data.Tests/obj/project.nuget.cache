@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2cTzuNP9+znqweBJ4eDGAYeuLi/ipme7cvuRyHiR7jqbDB+34RKW3lO60CITj3a/0WrvD9QIANjk4eWvkrwspQ==",
+  "dgSpecHash": "5W2fpJr+33gPJNdo09OAaKCsBn7YlG9wo+vbEVz41sIcFSeK7hGu2NJjAO4yc6GSA2GMSFZk+8rJ+PsVpw7sRw==",
   "success": true,
-  "projectFilePath": "D:\\Programming\\Темп\\TravelPointSystem\\Tests\\TravelPointSystem.Services.Data.Tests\\TravelPointSystem.Services.Data.Tests.csproj",
+  "projectFilePath": "D:\\Programming\\Темп\\Local\\Temp\\Tests\\TravelPointSystem.Services.Data.Tests\\TravelPointSystem.Services.Data.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ventsi\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\Ventsi\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",

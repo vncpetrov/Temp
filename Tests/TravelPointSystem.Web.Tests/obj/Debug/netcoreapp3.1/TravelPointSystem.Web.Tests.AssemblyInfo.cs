@@ -12,8 +12,8 @@ using System;
 using System.Reflection;
 
 [assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap4")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("TravelPointSystem.Data", "D:\\Programming\\Темп\\TravelPointSystem\\Data\\TravelPointSystem.Data", "TravelPointSystem.Data.csproj", "0")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("TravelPointSystem.Web", "D:\\Programming\\Темп\\TravelPointSystem\\Web\\TravelPointSystem.Web", "TravelPointSystem.Web.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("TravelPointSystem.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "D:\\Programming\\Темп\\Local\\Temp\\Data\\TravelPointSystem.Data", "TravelPointSystem.Data.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("TravelPointSystem.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "D:\\Programming\\Темп\\Local\\Temp\\Web\\TravelPointSystem.Web", "TravelPointSystem.Web.csproj", "0")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("TravelPointSystem.Web.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

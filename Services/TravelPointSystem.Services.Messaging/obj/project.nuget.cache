@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qwEoQaElmwKdfGzdmSXsqwO4zxNBDsrt4OMZyg7Ht9X6mE9973NceuxAICrIJGyLbhK0yb3WBx+wydAnnUmsng==",
+  "dgSpecHash": "/WfHmjFbRvUS2vS+Pem2BSkMe24N+WDBmNp9ikj/KAE/qBQwRn1wD56OuAxVss6olqkh6dX/h5/2HXivGWDIDQ==",
   "success": true,
-  "projectFilePath": "D:\\Programming\\Темп\\TravelPointSystem\\Services\\TravelPointSystem.Services.Messaging\\TravelPointSystem.Services.Messaging.csproj",
+  "projectFilePath": "D:\\Programming\\Темп\\Local\\Temp\\Services\\TravelPointSystem.Services.Messaging\\TravelPointSystem.Services.Messaging.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ventsi\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\Ventsi\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",

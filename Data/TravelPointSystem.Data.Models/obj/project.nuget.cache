@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UY0meByn8xHdnlFEw7W9ADySH7oN/lex4HoPUb+yMqQNmUEhsqu0qaGKgCtgt/vxq0rkzb6X8/RN6gX41eyqtA==",
+  "dgSpecHash": "AxG1MnqxOXneuMR/7jJnHYr1noHFDqjSBPksI3/d7Z8yjlIc+rjSgnqu6Z5cQrcLJVNQNSGkole0b19jn6brhA==",
   "success": true,
-  "projectFilePath": "D:\\Programming\\Темп\\TravelPointSystem\\Data\\TravelPointSystem.Data.Models\\TravelPointSystem.Data.Models.csproj",
+  "projectFilePath": "D:\\Programming\\Темп\\Local\\Temp\\Data\\TravelPointSystem.Data.Models\\TravelPointSystem.Data.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ventsi\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.2\\microsoft.aspnetcore.cryptography.internal.3.1.2.nupkg.sha512",
     "C:\\Users\\Ventsi\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.2\\microsoft.aspnetcore.cryptography.keyderivation.3.1.2.nupkg.sha512",

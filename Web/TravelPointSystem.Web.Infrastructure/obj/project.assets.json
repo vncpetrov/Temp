@@ -234,11 +234,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programming\\Темп\\TravelPointSystem\\Web\\TravelPointSystem.Web.Infrastructure\\TravelPointSystem.Web.Infrastructure.csproj",
+      "projectUniqueName": "D:\\Programming\\Темп\\Local\\Temp\\Web\\TravelPointSystem.Web.Infrastructure\\TravelPointSystem.Web.Infrastructure.csproj",
       "projectName": "TravelPointSystem.Web.Infrastructure",
-      "projectPath": "D:\\Programming\\Темп\\TravelPointSystem\\Web\\TravelPointSystem.Web.Infrastructure\\TravelPointSystem.Web.Infrastructure.csproj",
+      "projectPath": "D:\\Programming\\Темп\\Local\\Temp\\Web\\TravelPointSystem.Web.Infrastructure\\TravelPointSystem.Web.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\Ventsi\\.nuget\\packages\\",
-      "outputPath": "D:\\Programming\\Темп\\TravelPointSystem\\Web\\TravelPointSystem.Web.Infrastructure\\obj\\",
+      "outputPath": "D:\\Programming\\Темп\\Local\\Temp\\Web\\TravelPointSystem.Web.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ventsi\\AppData\\Roaming\\NuGet\\NuGet.Config",
