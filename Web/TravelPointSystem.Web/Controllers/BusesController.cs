@@ -26,8 +26,12 @@
         public IActionResult CheckDestinationsId()
         {
             var inputModel = new BusesByDestinationsIdInputModel();
-            inputModel.StartDestinationItems = this.destinationsService.GetAllStartCountriesForBusesAsKeyValuePairs();
-            inputModel.EndDestinationItems = this.destinationsService.GetAllEndCountriesForBusesAsKeyValuePairs();
+            inputModel.StartDestinationItems = this.destinationsService
+                .GetAllStartCountriesForBusesAsKeyValuePairs();
+
+            inputModel.EndDestinationItems =
+                this.destinationsService
+                    .GetAllEndCountriesForBusesAsKeyValuePairs();
 
             return this.View(inputModel);
         }
